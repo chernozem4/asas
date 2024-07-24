@@ -21,6 +21,7 @@ async def start_handler(message: types.Message):
             ],
             [
                 types.InlineKeyboardButton(text="Пожертвуйте нам", callback_data="donate_us"),
+                types.InlineKeyboardButton(text='Оставьте свой отзыв', callback_data='feedback')
             ]
         ]
     )
